@@ -19,8 +19,7 @@
 3. Create Cassandra keyspace and table
    1. Open CQL connection
 		```
-		docker inspect cassandra | grep IPAddress
-		docker exec -it cassandra cqlsh <IP_ADDRESS>
+		docker exec -it cassandra cqlsh $(docker inspect -f '{{range .NetworkSettings.Networks}}{{.IPAddress}}{{end}}' cassandra)
 		```
    2. Create Cassandra keyspace
 		```
