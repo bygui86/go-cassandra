@@ -6,8 +6,8 @@
 1. Prepare environment
 	```
 	cd $GOPATH/src/github.com
-	git clone git@github.com:bygui86/go-rest-cassandra.git
-	cd bygui86/go-rest-cassandra
+	git clone git@github.com:bygui86/go-cassandra.git
+	cd bygui86/go-cassandra
 	go get ./...
 	```
 
@@ -33,7 +33,7 @@
 
 4. Run application
 	```
-	cd $GOPATH/src/github.com/bygui86/go-rest-cassandra
+	cd $GOPATH/src/github.com/bygui86/go-cassandra
 	go run main.go
 	```
 

@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"net/http"
 
-	"github.com/bygui86/go-rest-cassandra/cassandra"
+	"github.com/bygui86/go-cassandra/cassandra"
 	"github.com/gocql/gocql"
 )
 

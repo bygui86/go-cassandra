@@ -7,8 +7,8 @@ import (
 	"net/http"
 	"strconv"
 
-	"github.com/bygui86/go-rest-cassandra/cassandra"
-	"github.com/bygui86/go-rest-cassandra/users"
+	"github.com/bygui86/go-cassandra/cassandra"
+	"github.com/bygui86/go-cassandra/users"
 	"github.com/gorilla/mux"
 )
 
